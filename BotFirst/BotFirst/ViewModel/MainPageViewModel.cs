@@ -85,7 +85,7 @@ namespace BotFirst.ViewModel
 
             botUriStartConversation = "https://directline.botframework.com/v3/directline/conversations/";
             botUriChat = "https://directline.botframework.com/v3/directline/conversations/{0}/activities";
-            botSecret = "_mVKnEKCmM8.cwA.5XA.gSXRFS_SgSX3kWWJfHwnwXHodV5KwubNLqB4BXA5mN0";
+            botSecret = "SecretKey";
 
             chatClient = new HttpClient();
             startConversationClient = new HttpClient();
